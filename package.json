@@ -1,0 +1,21 @@
+{
+  "name": "js-kata",
+  "version": "1.0.0",
+  "description": "Kata training to improve TDD/BDD php skills",
+  "scripts": {
+    "test": "node_modules/.bin/karma start karma.conf.js",
+    "generate-random": "node scripts/generate-random.js"
+  },
+  "author": "Filip Golonka",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-requirejs": "^1.1.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "requirejs": "^2.3.2"
+  }
+}
